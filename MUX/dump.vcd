@@ -1,0 +1,194 @@
+$date
+	Tue Aug 15 23:51:30 2023
+$end
+
+$version
+	Synopsys VCS version S-2021.09
+$end
+
+$timescale
+	1ps
+$end
+
+$comment Csum: 1 c0c661be0c301348 $end
+
+
+$scope module uvm_pkg $end
+$var reg 32 ! UVM_UNBOUNDED_CONNECTIONS [31:0] $end
+$var reg 1 " uvm_start_uvm_declarations $end
+$var time 64 # setting_offset $end
+$var reg 32 $ setting_verbosity [31:0] $end
+$var reg 1 % is_verdi_set_verbosity_called $end
+$var reg 32 & uvm_global_random_seed [31:0] $end
+$upscope $end
+
+
+$scope module $unit $end
+$upscope $end
+
+
+$scope module mux_tb $end
+
+$scope begin unnamed$$_vcs_0 $end
+$upscope $end
+
+
+$scope begin unnamed$$_vcs_1 $end
+$upscope $end
+
+
+$scope module mif $end
+$var reg 4 ' a [3:0] $end
+$var reg 4 ( b [3:0] $end
+$var reg 4 ) c [3:0] $end
+$var reg 4 * d [3:0] $end
+$var reg 2 + sel [1:0] $end
+$var reg 4 , y [3:0] $end
+$upscope $end
+
+
+$scope module dut $end
+$var wire 4 - a [3:0] $end
+$var wire 4 . b [3:0] $end
+$var wire 4 / c [3:0] $end
+$var wire 4 0 d [3:0] $end
+$var wire 2 1 sel [1:0] $end
+$var reg 4 2 y [3:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0%
+1"
+bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx #
+b11111111111111111111111111111111 !
+b00000000000000000000000000000000 $
+b01000010000001111100110001000111 &
+b1110 ,
+b01 +
+b0111 *
+b1100 )
+b1110 (
+b1111 '
+b1110 2
+b1111 -
+b1110 .
+b1100 /
+b0111 0
+b01 1
+$end
+#10000
+b1100 '
+b1100 -
+b0101 (
+b0101 .
+b0011 )
+b0011 /
+b0110 *
+b0110 0
+b11 +
+b11 1
+b0110 2
+b0110 ,
+#20000
+b0011 '
+b0011 -
+b1000 (
+b1000 .
+b1010 )
+b1010 /
+b1101 *
+b1101 0
+b00 +
+b00 1
+b0011 2
+b0011 ,
+#30000
+b1011 '
+b1011 -
+b1001 (
+b1001 .
+b0110 )
+b0110 /
+b0100 *
+b0100 0
+b1011 2
+b1011 ,
+#40000
+b1111 '
+b1111 -
+b1111 (
+b1111 .
+b1000 )
+b1000 /
+b1111 *
+b1111 0
+b01 +
+b01 1
+b1111 2
+b1111 ,
+#50000
+b1010 '
+b1010 -
+b0101 (
+b0101 .
+b0100 *
+b0100 0
+b10 +
+b10 1
+b1000 2
+b1000 ,
+#60000
+b0010 '
+b0010 -
+b1001 (
+b1001 .
+b0101 )
+b0101 /
+b1100 *
+b1100 0
+b11 +
+b11 1
+b1100 2
+b1100 ,
+#70000
+b1000 '
+b1000 -
+b1000 (
+b1000 .
+b0010 )
+b0010 /
+b1010 *
+b1010 0
+b00 +
+b00 1
+b1000 2
+b1000 ,
+#80000
+b1011 '
+b1011 -
+b1001 (
+b1001 .
+b0100 )
+b0100 /
+b0010 *
+b0010 0
+b11 +
+b11 1
+b0010 2
+b0010 ,
+#90000
+b0110 '
+b0110 -
+b0101 (
+b0101 .
+b1101 *
+b1101 0
+b00 +
+b00 1
+b0110 2
+b0110 ,
