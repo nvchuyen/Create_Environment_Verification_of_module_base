@@ -1,0 +1,13 @@
+-y ../model
+-y ../model/include
+-y ../testbench
++incdir+../model/
++incdir+../model/include/
++incdir+../testbench/
++incdir+../rtl/
+
++incdir+.
+-y .
+
+../model/N25Qxxx.v
+../testbench/top_tb.sv

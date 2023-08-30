@@ -1,0 +1,90 @@
+var g_data = {
+f5:{
+scopes:[{link:'z.htm?f=0&s=5',val:'work.qspi_master'}]
+,FSMs:[{dummy:0}
+,{anchor:'cvg325',items:[{c:'Y',p:'54.16',lnk:'__HDL_srcfile_1.htm#124',z:'state'}
+,{cr:'c',s:'1',z:'S_IDLE',h:'5',c:'g'}
+,{cr:'c',z:'S_IDLE -&gt; S_SET_SS',h:'1',c:'g'}
+,{cr:'c',s:'1',z:'S_SET_SS',h:'1',c:'g'}
+,{cr:'c',z:'S_SET_SS -&gt; S_TRANSMIT_COMM',h:'1',c:'g'}
+,{cr:'m',z:'S_SET_SS -&gt; S_IDLE',h:'0',c:'r'}
+,{cr:'c',s:'1',z:'S_TRANSMIT_COMM',h:'32',c:'g'}
+,{cr:'c',z:'S_TRANSMIT_COMM -&gt; S_TRANSMIT_ADDR',h:'1',c:'g'}
+,{cr:'m',z:'S_TRANSMIT_COMM -&gt; S_IDLE',h:'0',c:'r'}
+,{cr:'c',s:'1',z:'S_TRANSMIT_ADDR',h:'24',c:'g'}
+,{cr:'c',z:'S_TRANSMIT_ADDR -&gt; S_DUMMY',h:'1',c:'g'}
+,{cr:'m',z:'S_TRANSMIT_ADDR -&gt; S_IDLE',h:'0',c:'r'}
+,{cr:'c',s:'1',z:'S_DUMMY',h:'40',c:'g'}
+,{cr:'c',z:'S_DUMMY -&gt; S_READ_DATA',h:'1',c:'g'}
+,{cr:'m',z:'S_DUMMY -&gt; S_TRANSMIT_DATA',h:'0',c:'r'}
+,{cr:'m',z:'S_DUMMY -&gt; S_IDLE',h:'0',c:'r'}
+,{cr:'m',s:'1',z:'S_TRANSMIT_DATA',h:'0',c:'r'}
+,{cr:'m',z:'S_TRANSMIT_DATA -&gt; S_STOP',h:'0',c:'r'}
+,{cr:'m',z:'S_TRANSMIT_DATA -&gt; S_IDLE',h:'0',c:'r'}
+,{cr:'m',s:'1',z:'S_STOP',h:'0',c:'r'}
+,{cr:'m',z:'S_STOP -&gt; S_IDLE',h:'0',c:'r'}
+,{cr:'c',s:'1',z:'S_READ_DATA',h:'69',c:'g'}
+,{cr:'m',z:'S_READ_DATA -&gt; S_STOP',h:'0',c:'r'}
+,{cr:'m',z:'S_READ_DATA -&gt; S_IDLE',h:'0',c:'r'}
+]}
+,{anchor:'cvg328',items:[{c:'Y',p:'83.33',lnk:'__HDL_srcfile_1.htm#826',z:'proc_counter'}
+,{cr:'c',s:'1',z:'st0',h:'42',c:'g'}
+,{cr:'c',z:'st0 -&gt; st1',h:'41',c:'g'}
+,{cr:'c',s:'1',z:'st1',h:'41',c:'g'}
+,{cr:'c',z:'st1 -&gt; st2',h:'41',c:'g'}
+,{cr:'m',z:'st1 -&gt; st0',h:'0',c:'r'}
+,{cr:'c',s:'1',z:'st2',h:'41',c:'g'}
+,{cr:'c',z:'st2 -&gt; st3',h:'41',c:'g'}
+,{cr:'m',z:'st2 -&gt; st0',h:'0',c:'r'}
+,{cr:'c',s:'1',z:'st3',h:'41',c:'g'}
+,{cr:'c',z:'st3 -&gt; st0',h:'41',c:'g'}
+]}
+
+],
+},
+f35:{
+scopes:[{s:'33',b:'0',val:'top_tb'},{link:'z.htm?f=0&s=35',val:'DUT'}]
+,FSMs:[{dummy:0}
+,{anchor:'cvg325',items:[{c:'Y',p:'54.16',lnk:'__HDL_srcfile_1.htm#124',z:'state'}
+,{cr:'c',s:'1',z:'S_IDLE',h:'5',c:'g'}
+,{cr:'c',z:'S_IDLE -&gt; S_SET_SS',h:'1',c:'g'}
+,{cr:'c',s:'1',z:'S_SET_SS',h:'1',c:'g'}
+,{cr:'c',z:'S_SET_SS -&gt; S_TRANSMIT_COMM',h:'1',c:'g'}
+,{cr:'m',z:'S_SET_SS -&gt; S_IDLE',h:'0',c:'r'}
+,{cr:'c',s:'1',z:'S_TRANSMIT_COMM',h:'32',c:'g'}
+,{cr:'c',z:'S_TRANSMIT_COMM -&gt; S_TRANSMIT_ADDR',h:'1',c:'g'}
+,{cr:'m',z:'S_TRANSMIT_COMM -&gt; S_IDLE',h:'0',c:'r'}
+,{cr:'c',s:'1',z:'S_TRANSMIT_ADDR',h:'24',c:'g'}
+,{cr:'c',z:'S_TRANSMIT_ADDR -&gt; S_DUMMY',h:'1',c:'g'}
+,{cr:'m',z:'S_TRANSMIT_ADDR -&gt; S_IDLE',h:'0',c:'r'}
+,{cr:'c',s:'1',z:'S_DUMMY',h:'40',c:'g'}
+,{cr:'c',z:'S_DUMMY -&gt; S_READ_DATA',h:'1',c:'g'}
+,{cr:'m',z:'S_DUMMY -&gt; S_TRANSMIT_DATA',h:'0',c:'r'}
+,{cr:'m',z:'S_DUMMY -&gt; S_IDLE',h:'0',c:'r'}
+,{cr:'m',s:'1',z:'S_TRANSMIT_DATA',h:'0',c:'r'}
+,{cr:'m',z:'S_TRANSMIT_DATA -&gt; S_STOP',h:'0',c:'r'}
+,{cr:'m',z:'S_TRANSMIT_DATA -&gt; S_IDLE',h:'0',c:'r'}
+,{cr:'m',s:'1',z:'S_STOP',h:'0',c:'r'}
+,{cr:'m',z:'S_STOP -&gt; S_IDLE',h:'0',c:'r'}
+,{cr:'c',s:'1',z:'S_READ_DATA',h:'69',c:'g'}
+,{cr:'m',z:'S_READ_DATA -&gt; S_STOP',h:'0',c:'r'}
+,{cr:'m',z:'S_READ_DATA -&gt; S_IDLE',h:'0',c:'r'}
+]}
+,{anchor:'cvg328',items:[{c:'Y',p:'83.33',lnk:'__HDL_srcfile_1.htm#826',z:'proc_counter'}
+,{cr:'c',s:'1',z:'st0',h:'42',c:'g'}
+,{cr:'c',z:'st0 -&gt; st1',h:'41',c:'g'}
+,{cr:'c',s:'1',z:'st1',h:'41',c:'g'}
+,{cr:'c',z:'st1 -&gt; st2',h:'41',c:'g'}
+,{cr:'m',z:'st1 -&gt; st0',h:'0',c:'r'}
+,{cr:'c',s:'1',z:'st2',h:'41',c:'g'}
+,{cr:'c',z:'st2 -&gt; st3',h:'41',c:'g'}
+,{cr:'m',z:'st2 -&gt; st0',h:'0',c:'r'}
+,{cr:'c',s:'1',z:'st3',h:'41',c:'g'}
+,{cr:'c',z:'st3 -&gt; st0',h:'41',c:'g'}
+]}
+
+],
+},
+dummyEnd:0
+};
+processFsmData(g_data);

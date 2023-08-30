@@ -1,0 +1,67 @@
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <title>Questa Coverage Report</title>
+  <link rel="StyleSheet" media="screen" href="../css/hdl2html.css"/>
+</head>
+<body id="hdl2html">
+  <tt>
+<pre>
+<a name="1"><q-n>     1  </q-n></a><q-m>//////////////////////////////////////</q-m>
+<a name="2"><q-n>     2  </q-n></a><q-m>// top_tb</q-m>
+<a name="3"><q-n>     3  </q-n></a><q-m>//////////////////////////////////////</q-m>
+<a name="4"><q-n>     4  </q-n></a>`<q-a>timescale</q-w> 1<q-v>ns</q-w> / 1<q-v>ps</q-w>
+<a name="5"><q-n>     5  </q-n></a>
+<a name="6"><q-n>     6  </q-n></a>`<q-i>include</q-w> <q-l>"stimulus.sv"</q-l>
+<a name="7"><q-n>     7  </q-n></a>`<q-i>include</q-w> <q-l>"driver.sv"</q-l>
+<a name="8"><q-n>     8  </q-n></a>`<q-i>include</q-w> <q-l>"interface.sv"</q-l>
+<a name="9"><q-n>     9  </q-n></a>`<q-i>include</q-w> <q-l>"environment.sv"</q-l>
+<a name="10"><q-n>     10  </q-n></a>`<q-i>include</q-w> <q-l>"testcase_1.sv"</q-l> <q-m>// change include to different testcase</q-m>
+<a name="11"><q-n>     11  </q-n></a>`<q-i>include</q-w> <q-l>"<a href="__HDL_srcfile_3.htm">assertion.sv</a>"</q-l>
+<a name="12"><q-n>     12  </q-n></a>
+<a name="13"><q-n>     13  </q-n></a><q-w>module</q-w> top_tb ();
+<a name="14"><q-n>     14  </q-n></a>
+<a name="15"><q-n>     15  </q-n></a>    <q-m>// wire sio0;</q-m>
+<a name="16"><q-n>     16  </q-n></a>    <q-m>// wire sio1;</q-m>
+<a name="17"><q-n>     17  </q-n></a>    <q-m>// wire sio2;</q-m>
+<a name="18"><q-n>     18  </q-n></a>    <q-m>// wire sio3;</q-m>
+<a name="19"><q-n>     19  </q-n></a>    <q-m>// wire ss;</q-m>
+<a name="20"><q-n>     20  </q-n></a>
+<a name="21"><q-n>     21  </q-n></a> 	<q-w>reg</q-w> clk = 0;
+<a name="22"><q-n>     22  </q-n></a>  	<q-w>initial</q-w>  <q-m>// clock generator</q-m>
+<a name="23"><q-n>     23  </q-n></a>  	<q-w>forever</q-w> #5 clk = ~clk;
+<a name="24"><q-n>     24  </q-n></a>
+<a name="25"><q-n>     25  </q-n></a>  	<q-m>// DUT/ / testcase instances/ assertion</q-m>
+<a name="26"><q-n>     26  </q-n></a>  	my_interface intf(clk);
+<a name="27"><q-n>     27  </q-n></a>    
+<a name="28"><q-n>     28  </q-n></a>    qspi_master DUT(.i_clk(clk), .i_rst_n(intf.reset), .i_data(intf.data), .i_addr(intf.addr), .i_command(intf.command),  .i_rw(intf.rw), 
+<a name="29"><q-n>     29  </q-n></a>                    .i_enable(intf.enable), .i_burst_enable(intf.burst_enable), .i_burst_count(intf.burst_count), .i_divider(intf.divider),
+<a name="30"><q-n>     30  </q-n></a>    				.i_cpha(intf.cpha) , .i_cpol(intf.cpol), .i_mode(intf.mode), .SCLK(intf.sclk), .o_read_word(intf.read_word), 
+<a name="31"><q-n>     31  </q-n></a>    				.o_busy(intf.busy), .o_done(intf.done), .SS(intf.cs),   .o_burst_read_data_valid(intf.burst_read_data_valid), 
+<a name="32"><q-n>     32  </q-n></a>                    .o_burst_write_word_request(intf.burst_write_word_request),  .SO0(intf.sio0), .SO1(intf.sio1), .SO2(intf.sio2), .SO3(intf.sio3)
+<a name="33"><q-n>     33  </q-n></a>                    );
+<a name="34"><q-n>     34  </q-n></a>
+<a name="35"><q-n>     35  </q-n></a>    N25Qxxx  Model_N25Qxxx (
+<a name="36"><q-n>     36  </q-n></a>       .S(intf.cs),
+<a name="37"><q-n>     37  </q-n></a>       .C_(intf.sclk),
+<a name="38"><q-n>     38  </q-n></a>       .HOLD_DQ3(intf.sio3),
+<a name="39"><q-n>     39  </q-n></a>       .DQ0(intf.sio0),
+<a name="40"><q-n>     40  </q-n></a>       .DQ1(intf.sio1),
+<a name="41"><q-n>     41  </q-n></a>       .Vcc('d3300),
+<a name="42"><q-n>     42  </q-n></a>       .Vpp_W_DQ2(intf.sio2)
+<a name="43"><q-n>     43  </q-n></a>       ); <q-m>// model for flash</q-m>
+<a name="44"><q-n>     44  </q-n></a>
+<a name="45"><q-n>     45  </q-n></a>
+<a name="46"><q-n>     46  </q-n></a>    <q-m>// pullup(sio2);</q-m>
+<a name="47"><q-n>     47  </q-n></a>    <q-m>// pullup(sio3);</q-m>
+<a name="48"><q-n>     48  </q-n></a>
+<a name="49"><q-n>     49  </q-n></a>    testcase test(intf);
+<a name="50"><q-n>     50  </q-n></a>  	my_assertion acov(intf);
+<a name="51"><q-n>     51  </q-n></a><q-w>endmodule</q-w>
+</pre>
+</tt>
+
+  
+</body>
+</html>

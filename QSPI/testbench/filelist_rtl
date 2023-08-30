@@ -1,0 +1,10 @@
++libext+.v
++libext+.sv
++libext+.h
++libext+.vh
++libext+.svh
+
+-y ../rtl
++incdir+../rtl/
+
+../rtl/qspi_master.v

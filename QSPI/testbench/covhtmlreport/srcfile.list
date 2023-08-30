@@ -1,0 +1,3 @@
+../rtl/qspi_master.v
+../testbench/top_tb.sv
+assertion.sv

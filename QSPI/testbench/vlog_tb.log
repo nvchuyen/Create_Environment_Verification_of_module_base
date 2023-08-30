@@ -1,0 +1,46 @@
+QuestaSim vlog 10.7c Compiler 2018.08 Aug 17 2018
+Start time: 14:38:43 on Dec 02,2022
+vlog -sv -l vlog_tb.log -f filelist_tb "+define+TESTCASE_8" -incr "+acc=mnprt" -assertdebug 
+-- Compiling module paramConfig
+-- Compiling module N25Qxxx
+-- Compiling module CUIdecoder
+-- Compiling module Memory
+-- Compiling module UtilFunctions
+-- Compiling module Program
+-- Compiling module StatusRegister
+-- Compiling module FlagStatusRegister
+-- Compiling module ProtectionManagementRegister
+-- Compiling module NonVolatileConfigurationRegister
+-- Compiling module VolatileConfigurationRegister
+-- Compiling module VolatileEnhancedConfigurationRegister
+-- Compiling module Read
+-- Compiling module FlashDiscoveryParameter
+-- Compiling module LockManager
+-- Compiling module DualQuadOps
+-- Compiling module OTP_memory
+-- Compiling module TimingCheck
+-- Compiling module ExtendedAddressRegister
+-- Compiling module PLRSpart1Detect
+-- Compiling module PLRSpart2Detect
+-- Compiling module DebugModule
+** Warning: ** while parsing file included at ../testbench/top_tb.sv(8)
+** at driver.sv(3): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: stimulus.sv(7): (vlog-13233) Design unit "top_tb_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package top_tb_sv_unit
+-- Compiling interface my_interface
+-- Compiling program testcase
+-- Compiling module my_assertion
+-- Compiling module top_tb
+-- Scanning library directory '../model'
+-- Scanning library directory '../model/include'
+-- Scanning library directory '../testbench'
+-- Scanning library directory '.'
+
+Referenced (but uncompiled) modules or primitives:
+	qspi_master
+
+Top level modules:
+	paramConfig
+	top_tb
+End time: 14:38:43 on Dec 02,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 2

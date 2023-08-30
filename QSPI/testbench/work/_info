@@ -1,0 +1,811 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/11users/vanchuyen/workspace/verification/testbench
+T_opt
+!s110 1669966726
+V3OAL2eRj:85^zC<aZYAhP2
+04 6 4 work top_tb fast 0
+=1-d85ed35273eb-6389ab86-881aa-60a9
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OE;O;10.7c;67
+vCUIdecoder
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1669966723
+!i10b 1
+!s100 17A@B`O3;zgW2?o6>Ra3P3
+IAhFEgFT1fY^zaD@PcUnVE0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 N25Qxxx_v_unit
+S1
+R0
+Z6 w1665128067
+Z7 8../model/N25Qxxx.v
+Z8 F../model/N25Qxxx.v
+Z9 F../model/include//../include/DevParam.h
+Z10 F../model/include//../include/UserData.h
+Z11 F../model/include//../include/TimingData.h
+L0 2573
+Z12 OE;L;10.7c;67
+r1
+!s85 0
+31
+Z13 !s108 1669966723.000000
+Z14 !s107 assertion.sv|testcase_8.sv|environment.sv|interface.sv|driver.sv|stimulus.sv|../model/include//../include/PLRSDetectors.h|../model/include//../include/Decoders.h|../model/include//../include/TimingData.h|../model/include//../include/DevParam.h|../model/include//../include/UserData.h|../testbench/top_tb.sv|../model/N25Qxxx.v|
+Z15 !s90 -sv|-l|vlog_tb.log|-f|filelist_tb|+define+TESTCASE_8|-incr|+acc=mnprt|-assertdebug|
+!i113 0
+Z16 o-sv +acc=mnprt -assertdebug -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z17 !s92 -sv -y ../model -y ../model/include -y ../testbench +incdir+../model/ +incdir+../model/include/ +incdir+../testbench/ +incdir+../rtl/ +incdir+. -y . +define+TESTCASE_8 +acc=mnprt -assertdebug -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@c@u@idecoder
+vDebugModule
+R2
+R3
+!i10b 1
+!s100 CZ0mB9<m`CJ8ClC5g406z3
+IB<C^AUh5fRP[`0gZ<H98;2
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+L0 11344
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@debug@module
+vDualQuadOps
+R2
+R3
+!i10b 1
+!s100 SDSlaaLn4Si=BM8mR4=d>1
+IXf=5>[Ob0ZjPXG81dDclk0
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+L0 8228
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@dual@quad@ops
+vExtendedAddressRegister
+R2
+R3
+!i10b 1
+!s100 ;bYOajBBF8:lZfJgX@BTK1
+IYP4bkZ8Sa`bDKW9did9hI1
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+L0 9763
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@extended@address@register
+vFlagStatusRegister
+R2
+R3
+!i10b 1
+!s100 I9iIPm41agekzREOV?f[M0
+IzZXMF<LXnc?U4A<AeMZdW2
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+L0 6336
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@flag@status@register
+vFlashDiscoveryParameter
+R2
+R3
+!i10b 1
+!s100 6C`_o]>m9NbA^RkB=c`8N3
+IA1QiM:abJ^h[]1e8S?KKQ3
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+L0 7548
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@flash@discovery@parameter
+vLockManager
+R2
+R3
+!i10b 1
+!s100 ^Mn<71>iPdOmJV>6WDBOT3
+IjSiD^ia3k=FLdJT9<0nF50
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+L0 7639
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@lock@manager
+vMemory
+R2
+R3
+!i10b 1
+!s100 I@T<H1T6=SQO:U`lkP_<l2
+Ie?QCh2kUjI0bm1=^Kdddm1
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+L0 3774
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@memory
+vmy_assertion
+R2
+Z18 DXx4 work 14 top_tb_sv_unit 0 22 fBzL240N^AE[UTLc^ITh51
+R4
+r1
+!s85 0
+!i10b 1
+!s100 zVHCAe@D4]hNZ<?GC2[c70
+I9Da6>ze0[63@86oT>>Xb71
+Z19 !s105 top_tb_sv_unit
+S1
+R0
+Z20 w1665990010
+8assertion.sv
+Z21 Fassertion.sv
+L0 10
+R12
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+Ymy_interface
+R2
+R18
+R4
+r1
+!s85 0
+!i10b 1
+!s100 n0cGE=USYP@clo1SI?3Pl0
+I<h59GGhl:Q1?ObfOEe=Y20
+R19
+S1
+R0
+w1665723587
+8interface.sv
+Z22 Finterface.sv
+L0 6
+R12
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+vN25Qxxx
+R2
+R3
+!i10b 1
+!s100 joCTchCbhjY^d?HFMAzB31
+Id7RFP<Vnd;F@LW8mK8XK52
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+F../model/include//../include/Decoders.h
+F../model/include//../include/PLRSDetectors.h
+L0 83
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@n25@qxxx
+vNonVolatileConfigurationRegister
+R2
+R3
+!i10b 1
+!s100 W;JckF85EH^oA43]gUd:I1
+IbY54=6?9Nk5mG9Q<?^lC=1
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+L0 6593
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@non@volatile@configuration@register
+vOTP_memory
+R2
+R3
+!i10b 1
+!s100 d2BP;e@c<U1[0VkKi???;2
+IVCjgeG6OVONBgTRUL[@Io2
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+L0 9213
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@o@t@p_memory
+vparamConfig
+R2
+R3
+!i10b 1
+!s100 c_9cHj^7KgOQmD`KABlNG3
+IZYDn95zhRklc=c[5j2Yg_3
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+L0 63
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+nparam@config
+vPLRSpart1Detect
+R2
+R3
+!i10b 1
+!s100 0Ja@25]GOQg7bKIIzX11n2
+IJYTj`hOIWNEk3VI@f:F7h1
+R4
+R5
+S1
+R0
+Z23 w1665044681
+R7
+R8
+L0 10714
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@p@l@r@spart1@detect
+vPLRSpart2Detect
+R2
+R3
+!i10b 1
+!s100 aFHz6N7C>?JAnGKI9m89E1
+IP6UJ?9AiI3K[T@hD:z0_P1
+R4
+R5
+S1
+R0
+R23
+R7
+R8
+L0 10817
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@p@l@r@spart2@detect
+vProgram
+R2
+R3
+!i10b 1
+!s100 dJWDUY:EdfGo@YKT<T9`n2
+I^27B<OUL7WCBQ7L[]9W5U0
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+L0 4466
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@program
+vProtectionManagementRegister
+R2
+R3
+!i10b 1
+!s100 8S<CD]@^Y;c5@l<GhX:Tj1
+INHkdTBjLRLZjoQfSNP[Wo2
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+L0 6521
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@protection@management@register
+vqspi_master
+!s10a 1665115379
+R2
+!s110 1669966662
+!i10b 1
+!s100 IK_E>:[DHO@=W:h^b33MK0
+I2B<R<?=m^_bzL9N8Ic_lb0
+R4
+!s105 qspi_master_v_unit
+S1
+R0
+w1665115379
+8../rtl/qspi_master.v
+F../rtl/qspi_master.v
+L0 3
+R12
+r1
+!s85 0
+31
+!s108 1669966662.000000
+!s107 ../rtl/qspi_master.v|
+!s90 -sv|-l|vlog_rtl.log|-f|filelist_rtl|-incr|+acc=mnprt|+cover=sbceft|-assertdebug|
+!i113 0
+!s102 +cover=sbceft
+o-sv +libext+.v +libext+.sv +libext+.h +libext+.vh +libext+.svh +acc=mnprt +cover=sbceft -assertdebug -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -sv +libext+.v +libext+.sv +libext+.h +libext+.vh +libext+.svh -y ../rtl +incdir+../rtl/ +acc=mnprt +cover=sbceft -assertdebug -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vRead
+R2
+R3
+!i10b 1
+!s100 5]VANIP_RF>B2Q]];G?^92
+IF926e[T23T?o5L^3K_WQU0
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+L0 7038
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@read
+vStatusRegister
+R2
+R3
+!i10b 1
+!s100 @28k=iEjGZU<;1NaKNEOO1
+IXh<4lm20dE?:c[zZU>Qc60
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+L0 6157
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@status@register
+4testcase
+R2
+R18
+R4
+r1
+!s85 0
+!i10b 1
+!s100 5z;N[0b9l380SSl>^0NeQ1
+I;MU>fnVY53`h=NQZU<a[]1
+R19
+S1
+R0
+w1665738407
+8testcase_8.sv
+Z24 Ftestcase_8.sv
+L0 8
+R12
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+vTimingCheck
+R2
+R3
+!i10b 1
+!s100 o`MYISF8ZkLZiALDKJ_AG1
+Ina:KLZ<mIOdBIPn@@oi7Z1
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+L0 9369
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@timing@check
+vtop_tb
+R2
+R18
+R4
+r1
+!s85 0
+!i10b 1
+!s100 `UJAJ1z0SmGhjFEeI[>PG0
+IAaaTaNh]7>S^efHgn8GLF2
+R19
+S1
+R0
+w1665828490
+Z25 8../testbench/top_tb.sv
+Z26 F../testbench/top_tb.sv
+L0 31
+R12
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+Xtop_tb_sv_unit
+!s115 my_interface
+R2
+VfBzL240N^AE[UTLc^ITh51
+r1
+!s85 0
+!i10b 1
+!s100 gN=5gNU>;cZ8W@EZBV<j81
+IfBzL240N^AE[UTLc^ITh51
+!i103 1
+S1
+R0
+R20
+R25
+R26
+Fstimulus.sv
+Fdriver.sv
+R22
+Fenvironment.sv
+R24
+R21
+L0 7
+R12
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+vUtilFunctions
+R2
+R3
+!i10b 1
+!s100 FZbj7LQ6LNJMACcnAZFC93
+Ikdm[XX_8NR?Uc60U;Wo@k3
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+L0 4185
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@util@functions
+vVolatileConfigurationRegister
+R2
+R3
+!i10b 1
+!s100 gGG[A8ZUGzQP<iD]_ze>52
+IoKd<L;MeXFalE4J1B;k;Q2
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+L0 6699
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@volatile@configuration@register
+vVolatileEnhancedConfigurationRegister
+R2
+R3
+!i10b 1
+!s100 Y[mecaSDE@Z9XTZ1LFHZk2
+I?f>ZC1nT]0GzR[Q<GCPd>3
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+R9
+R10
+R11
+L0 6792
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R1
+n@volatile@enhanced@configuration@register

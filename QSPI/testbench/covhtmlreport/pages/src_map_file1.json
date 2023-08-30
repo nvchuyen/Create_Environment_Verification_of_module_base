@@ -1,0 +1,4 @@
+var g_data = {'dummy':null,
+'1':'../rtl/qspi_master.v',
+'2':'../testbench/top_tb.sv',
+'3':'assertion.sv'};

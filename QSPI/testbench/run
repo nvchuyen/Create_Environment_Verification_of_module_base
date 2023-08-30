@@ -1,0 +1,17 @@
+rm -rf work; rm -rf *.ucdb;
+test_list=("TESTCASE_3" "TESTCASE_2" "TESTCASE_3" "TESTCASE_4" "TESTCASE_5" "TESTCASE_6" "TESTCASE_7" "TESTCASE_8");
+#test_list=("TESTCASE_1");
+for name in ${test_list[@]}; do
+	echo $name;
+	vlib work;
+	#+define+TESTCASE1
+	vlog -sv -l vlog_tb.log -f filelist_tb +define+$name  -incr +acc=mnprt -assertdebug; 
+	vlog -sv -l vlog_rtl.log -f filelist_rtl -incr +acc=mnprt +cover=sbceft -assertdebug;
+	vsim -c top_tb -assertdebug -coverage +voptargs=+acc -do "set WildcardFilter [lsearch -not -all -inline \$WildcardFilter Assertion]; add wave -r top_tb/*;coverage save -onexit $name.ucdb; run -all; quit;" 
+	
+	vcover merge final_coverage.ucdb final_coverage.ucdb $name.ucdb;
+done
+#/// change name report_qspi 
+#vcover -o final.ucbd $test.ucdb   variable bash script
+#vsim -view *.wlf &
+#vsim -viewcov *.ucdb

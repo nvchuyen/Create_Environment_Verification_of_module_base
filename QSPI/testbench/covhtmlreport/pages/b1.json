@@ -1,0 +1,1208 @@
+var g_data = {
+b5:[{dummy:0},
+{anchor:'cvg36',items:[{z:'    assign SCLK = (cpol == 0) ? sclk : ~sclk;',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'89',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'    assign SCLK = (cpol == 0) ? sclk : ~sclk;',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'89',h:'83',c:'g'}
+,{cr:'m',t:'E',z:'    assign SCLK = (cpol == 0) ? sclk : ~sclk;',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'89',h:'0',c:'r'}
+]},
+{anchor:'cvg37',items:[{z:'    assign divider_tick = (divider_counter == i_divider) ? 1 : 0;',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'94',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'    assign divider_tick = (divider_counter == i_divider) ? 1 : 0;',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'94',h:'166',c:'g'}
+,{cr:'c',t:'E',z:'    assign divider_tick = (divider_counter == i_divider) ? 1 : 0;',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'94',h:'838',c:'g'}
+]},
+{anchor:'cvg38',items:[{z:'        if(~i_rst_n)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'97',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'        if(~i_rst_n)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'97',h:'506',c:'g'}
+,{cr:'c',t:'E',z:'        else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'100',h:'1004',c:'g'}
+]},
+{anchor:'cvg39',items:[{z:'            if(divider_counter == i_divider)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'101',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'            if(divider_counter == i_divider)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'101',h:'166',c:'g'}
+,{cr:'c',t:'E',z:'            else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'104',h:'838',c:'g'}
+]},
+{anchor:'cvg40',items:[{z:'    	if(~i_rst_n) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'112',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'    	if(~i_rst_n) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'112',h:'5',c:'g'}
+,{cr:'c',t:'E',z:'    	end else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'114',h:'336',c:'g'}
+]},
+{anchor:'cvg41',items:[{z:'    		if(divider_tick)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'115',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'    		if(divider_tick)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'115',h:'166',c:'g'}
+,{cr:'c',t:'A',z:'    		if(divider_tick)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'115',h:'170',c:'g'}
+]},
+{anchor:'cvg42',items:[{z:'    	case(state)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'123',c:'Y',p:'66.66'}
+,{cr:'c',t:'T',z:'    		S_IDLE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'124',h:'2',c:'g'}
+,{cr:'c',t:'T',z:'    		S_SET_SS: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'129',h:'1',c:'g'}
+,{cr:'c',t:'T',z:'    		S_TRANSMIT_COMM: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'132',h:'32',c:'g'}
+,{cr:'c',t:'T',z:'    		S_TRANSMIT_ADDR: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'137',h:'24',c:'g'}
+,{cr:'m',t:'T',z:'    		S_TRANSMIT_DATA: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'156',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'    		S_DUMMY: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'168',h:'40',c:'g'}
+,{cr:'c',t:'T',z:'    		S_READ_DATA: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'202',h:'69',c:'g'}
+,{cr:'m',t:'T',z:'    		S_STOP: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'242',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    	case(state)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'123',h:'0',c:'r'}
+]},
+{anchor:'cvg43',items:[{z:'    			if(i_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'125',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'    			if(i_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'125',h:'1',c:'g'}
+,{cr:'c',t:'A',z:'    			if(i_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'125',h:'1',c:'g'}
+]},
+{anchor:'cvg44',items:[{z:'    			if(bit_counter &gt;= COMM_WIDTH-1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'133',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'    			if(bit_counter &gt;= COMM_WIDTH-1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'133',h:'1',c:'g'}
+,{cr:'c',t:'A',z:'    			if(bit_counter &gt;= COMM_WIDTH-1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'133',h:'31',c:'g'}
+]},
+{anchor:'cvg45',items:[{z:'    			case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'138',c:'R',p:'25.00'}
+,{cr:'m',t:'T',z:'    				SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'139',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'    				DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'144',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'    				QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'149',h:'24',c:'g'}
+,{cr:'m',t:'A',z:'    			case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'138',h:'0',c:'r'}
+]},
+{anchor:'cvg46',items:[{z:'    					if(bit_counter 	&gt;= ADDR_WIDTH-1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'140',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    					if(bit_counter 	&gt;= ADDR_WIDTH-1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'140',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    					if(bit_counter 	&gt;= ADDR_WIDTH-1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'140',h:'0',c:'r'}
+]},
+{anchor:'cvg47',items:[{z:'    					if(bit_counter 	&gt;= ADDR_WIDTH-2 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'145',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    					if(bit_counter 	&gt;= ADDR_WIDTH-2 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'145',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    					if(bit_counter 	&gt;= ADDR_WIDTH-2 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'145',h:'0',c:'r'}
+]},
+{anchor:'cvg48',items:[{z:'    					if(bit_counter 	&gt;= ADDR_WIDTH-4 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'150',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'    					if(bit_counter 	&gt;= ADDR_WIDTH-4 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'150',h:'1',c:'g'}
+,{cr:'c',t:'A',z:'    					if(bit_counter 	&gt;= ADDR_WIDTH-4 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'150',h:'23',c:'g'}
+]},
+{anchor:'cvg49',items:[{z:'    			if(bit_counter &gt;= DATA_WIDTH-1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'157',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    			if(bit_counter &gt;= DATA_WIDTH-1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'157',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    			if(bit_counter &gt;= DATA_WIDTH-1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'157',h:'0',c:'r'}
+]},
+{anchor:'cvg50',items:[{z:'    				if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'158',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    				if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'158',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'    				else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'163',h:'0',c:'r'}
+]},
+{anchor:'cvg51',items:[{z:'    					if(burst_count 	&lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'159',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    					if(burst_count 	&lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'159',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    					if(burst_count 	&lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'159',h:'0',c:'r'}
+]},
+{anchor:'cvg52',items:[{z:'    			case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'169',c:'R',p:'25.00'}
+,{cr:'m',t:'T',z:'    				SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'170',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'    				DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'180',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'    				QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'190',h:'40',c:'g'}
+,{cr:'m',t:'A',z:'    			case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'169',h:'0',c:'r'}
+]},
+{anchor:'cvg53',items:[{z:'    					if(dummy_cnt == DUMMY_CYC_SING - 1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'171',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    					if(dummy_cnt == DUMMY_CYC_SING - 1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'171',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    					if(dummy_cnt == DUMMY_CYC_SING - 1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'171',h:'0',c:'r'}
+]},
+{anchor:'cvg54',items:[{z:'    						if(rw == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'172',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    						if(rw == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'172',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'    						else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'175',h:'0',c:'r'}
+]},
+{anchor:'cvg55',items:[{z:'    					if(dummy_cnt == DUMMY_CYC_DUAL - 1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'181',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    					if(dummy_cnt == DUMMY_CYC_DUAL - 1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'181',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    					if(dummy_cnt == DUMMY_CYC_DUAL - 1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'181',h:'0',c:'r'}
+]},
+{anchor:'cvg56',items:[{z:'    						if(rw == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'182',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    						if(rw == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'182',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'    						else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'185',h:'0',c:'r'}
+]},
+{anchor:'cvg57',items:[{z:'    					if(dummy_cnt == DUMMY_CYC_QUAD - 1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'191',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'    					if(dummy_cnt == DUMMY_CYC_QUAD - 1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'191',h:'1',c:'g'}
+,{cr:'c',t:'A',z:'    					if(dummy_cnt == DUMMY_CYC_QUAD - 1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'191',h:'39',c:'g'}
+]},
+{anchor:'cvg58',items:[{z:'    						if(rw == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'192',c:'Y',p:'50.00'}
+,{cr:'m',t:'I',z:'    						if(rw == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'192',h:'0',c:'r'}
+,{cr:'c',t:'E',z:'    						else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'195',h:'1',c:'g'}
+]},
+{anchor:'cvg59',items:[{z:'    			case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'203',c:'R',p:'25.00'}
+,{cr:'m',t:'T',z:'    				SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'204',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'    				DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'216',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'    				QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'228',h:'69',c:'g'}
+,{cr:'m',t:'A',z:'    			case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'203',h:'0',c:'r'}
+]},
+{anchor:'cvg60',items:[{z:'    					if(bit_counter &gt;= DATA_WIDTH-1 &&  proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'205',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    					if(bit_counter &gt;= DATA_WIDTH-1 &&  proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'205',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    					if(bit_counter &gt;= DATA_WIDTH-1 &&  proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'205',h:'0',c:'r'}
+]},
+{anchor:'cvg61',items:[{z:'    						if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'206',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    						if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'206',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'    						else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'211',h:'0',c:'r'}
+]},
+{anchor:'cvg62',items:[{z:'    							if(burst_count 	&lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'207',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    							if(burst_count 	&lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'207',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    							if(burst_count 	&lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'207',h:'0',c:'r'}
+]},
+{anchor:'cvg63',items:[{z:'    					if(bit_counter &gt;= DATA_WIDTH-2 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'217',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    					if(bit_counter &gt;= DATA_WIDTH-2 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'217',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    					if(bit_counter &gt;= DATA_WIDTH-2 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'217',h:'0',c:'r'}
+]},
+{anchor:'cvg64',items:[{z:'    						if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'218',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    						if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'218',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'    						else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'223',h:'0',c:'r'}
+]},
+{anchor:'cvg65',items:[{z:'    							if(burst_count &lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'219',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    							if(burst_count &lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'219',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    							if(burst_count &lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'219',h:'0',c:'r'}
+]},
+{anchor:'cvg66',items:[{z:'    					if(bit_counter &gt;= DATA_WIDTH-4 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'229',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'    					if(bit_counter &gt;= DATA_WIDTH-4 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'229',h:'2',c:'g'}
+,{cr:'c',t:'A',z:'    					if(bit_counter &gt;= DATA_WIDTH-4 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'229',h:'67',c:'g'}
+]},
+{anchor:'cvg67',items:[{z:'    						if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'230',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'    						if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'230',h:'2',c:'g'}
+,{cr:'m',t:'E',z:'    						else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'235',h:'0',c:'r'}
+]},
+{anchor:'cvg68',items:[{z:'    							if(burst_count &lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'231',c:'Y',p:'50.00'}
+,{cr:'m',t:'I',z:'    							if(burst_count &lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'231',h:'0',c:'r'}
+,{cr:'c',t:'A',z:'    							if(burst_count &lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'231',h:'2',c:'g'}
+]},
+{anchor:'cvg69',items:[{z:'    			if(proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'243',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    			if(proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'243',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    			if(proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'243',h:'0',c:'r'}
+]},
+{anchor:'cvg70',items:[{z:'        if(~i_rst_n)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'253',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'        if(~i_rst_n)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'253',h:'5',c:'g'}
+,{cr:'c',t:'E',z:'        else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'270',h:'338',c:'g'}
+]},
+{anchor:'cvg71',items:[{z:'            if(divider_tick)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'271',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'            if(divider_tick)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'271',h:'166',c:'g'}
+,{cr:'c',t:'A',z:'            if(divider_tick)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'271',h:'172',c:'g'}
+]},
+{anchor:'cvg72',items:[{z:'                case(state)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'272',c:'Y',p:'66.66'}
+,{cr:'c',t:'T',z:'                    S_IDLE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'273',h:'1',c:'g'}
+,{cr:'c',t:'T',z:'                    S_SET_SS: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'287',h:'1',c:'g'}
+,{cr:'c',t:'T',z:'                    S_TRANSMIT_COMM: begin                   	',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'296',h:'32',c:'g'}
+,{cr:'c',t:'T',z:'                    S_TRANSMIT_ADDR: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'380',h:'24',c:'g'}
+,{cr:'m',t:'T',z:'                    S_TRANSMIT_DATA: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'499',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'                    S_READ_DATA: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'651',h:'68',c:'g'}
+,{cr:'m',t:'T',z:'                    S_STOP: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'778',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'                    S_DUMMY: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'824',h:'40',c:'g'}
+,{cr:'m',t:'A',z:'                case(state)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'272',h:'0',c:'r'}
+]},
+{anchor:'cvg73',items:[{z:'                        if(i_enable)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'282',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'                        if(i_enable)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'282',h:'1',c:'g'}
+,{cr:'m',t:'A',z:'                        if(i_enable)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'282',h:'0',c:'r'}
+]},
+{anchor:'cvg74',items:[{z:'                        if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'290',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'                        if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'290',h:'1',c:'g'}
+,{cr:'m',t:'A',z:'                        if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'290',h:'0',c:'r'}
+]},
+{anchor:'cvg75',items:[{z:'                      			case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'297',c:'Y',p:'80.00'}
+,{cr:'c',t:'T',z:'                          			0: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'298',h:'8',c:'g'}
+,{cr:'c',t:'T',z:'                          			1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'312',h:'8',c:'g'}
+,{cr:'c',t:'T',z:'                          			2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'338',h:'8',c:'g'}
+,{cr:'c',t:'T',z:'                          			3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'345',h:'8',c:'g'}
+,{cr:'m',t:'A',z:'                      			case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'297',h:'0',c:'r'}
+]},
+{anchor:'cvg76',items:[{z:'                            			if(bit_counter &gt; 0 && cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'300',c:'Y',p:'50.00'}
+,{cr:'m',t:'I',z:'                            			if(bit_counter &gt; 0 && cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'300',h:'0',c:'r'}
+,{cr:'c',t:'A',z:'                            			if(bit_counter &gt; 0 && cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'300',h:'8',c:'g'}
+]},
+{anchor:'cvg77',items:[{z:'                            			if(bit_counter == 0 && cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'304',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'                            			if(bit_counter == 0 && cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'304',h:'1',c:'g'}
+,{cr:'c',t:'A',z:'                            			if(bit_counter == 0 && cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'304',h:'7',c:'g'}
+]},
+{anchor:'cvg78',items:[{z:'                            			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'307',c:'Y',p:'50.00'}
+,{cr:'m',t:'I',z:'                            			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'307',h:'0',c:'r'}
+,{cr:'c',t:'A',z:'                            			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'307',h:'8',c:'g'}
+]},
+{anchor:'cvg79',items:[{z:'                            			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'314',c:'Y',p:'50.00'}
+,{cr:'m',t:'I',z:'                            			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'314',h:'0',c:'r'}
+,{cr:'c',t:'A',z:'                            			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'314',h:'8',c:'g'}
+]},
+{anchor:'cvg80',items:[{z:'                                     if(bit_counter == COMM_WIDTH) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'315',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                     if(bit_counter == COMM_WIDTH) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'315',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                                    else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'331',h:'0',c:'r'}
+]},
+{anchor:'cvg81',items:[{z:'                                       case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'316',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                                         SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'317',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                                        DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'321',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                                        QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'325',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                       case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'316',h:'0',c:'r'}
+]},
+{anchor:'cvg82',items:[{z:'                            			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'340',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'                            			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'340',h:'8',c:'g'}
+,{cr:'m',t:'A',z:'                            			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'340',h:'0',c:'r'}
+]},
+{anchor:'cvg83',items:[{z:'                            			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'347',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'                            			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'347',h:'8',c:'g'}
+,{cr:'m',t:'A',z:'                            			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'347',h:'0',c:'r'}
+]},
+{anchor:'cvg84',items:[{z:'                                    if(bit_counter == COMM_WIDTH-1) begin...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'348',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'                                    if(bit_counter == COMM_WIDTH-1) begin...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'348',h:'1',c:'g'}
+,{cr:'c',t:'E',z:'                                    else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'364',h:'7',c:'g'}
+]},
+{anchor:'cvg85',items:[{z:'                                      case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'349',c:'R',p:'25.00'}
+,{cr:'m',t:'T',z:'                                        SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'350',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                                        DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'354',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'                                        QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'358',h:'1',c:'g'}
+,{cr:'m',t:'A',z:'                                      case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'349',h:'0',c:'r'}
+]},
+{anchor:'cvg86',items:[{z:'                            			if(bit_counter == COMM_WIDTH-1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'369',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'                            			if(bit_counter == COMM_WIDTH-1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'369',h:'1',c:'g'}
+,{cr:'c',t:'E',z:'                            			else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'372',h:'7',c:'g'}
+]},
+{anchor:'cvg87',items:[{z:'                      case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'381',c:'R',p:'25.00'}
+,{cr:'m',t:'T',z:'                        SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'382',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                        DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'430',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'                        QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'463',h:'24',c:'g'}
+,{cr:'m',t:'A',z:'                      case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'381',h:'0',c:'r'}
+]},
+{anchor:'cvg88',items:[{z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'383',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                            0: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'384',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'396',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'405',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'413',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'383',h:'0',c:'r'}
+]},
+{anchor:'cvg89',items:[{z:'                               if(bit_counter &gt; 0 && cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'386',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(bit_counter &gt; 0 && cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'386',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                               if(bit_counter &gt; 0 && cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'386',h:'0',c:'r'}
+]},
+{anchor:'cvg90',items:[{z:'                                if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'390',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'390',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'390',h:'0',c:'r'}
+]},
+{anchor:'cvg91',items:[{z:'                               if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'398',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'398',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                               if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'398',h:'0',c:'r'}
+]},
+{anchor:'cvg92',items:[{z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'407',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'407',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'407',h:'0',c:'r'}
+]},
+{anchor:'cvg93',items:[{z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'416',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'416',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'416',h:'0',c:'r'}
+]},
+{anchor:'cvg94',items:[{z:'                               if(bit_counter == ADDR_WIDTH-1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'420',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(bit_counter == ADDR_WIDTH-1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'420',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                               else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'424',h:'0',c:'r'}
+]},
+{anchor:'cvg95',items:[{z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'431',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                            0: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'432',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'435',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'443',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'446',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'431',h:'0',c:'r'}
+]},
+{anchor:'cvg96',items:[{z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'438',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'438',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'438',h:'0',c:'r'}
+]},
+{anchor:'cvg97',items:[{z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'449',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'449',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'449',h:'0',c:'r'}
+]},
+{anchor:'cvg98',items:[{z:'                              if(bit_counter &gt;= ADDR_WIDTH-2) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'453',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                              if(bit_counter &gt;= ADDR_WIDTH-2) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'453',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                              else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'457',h:'0',c:'r'}
+]},
+{anchor:'cvg99',items:[{z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'464',c:'Y',p:'80.00'}
+,{cr:'c',t:'T',z:'                            0: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'465',h:'6',c:'g'}
+,{cr:'c',t:'T',z:'                            1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'468',h:'6',c:'g'}
+,{cr:'c',t:'T',z:'                            2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'476',h:'6',c:'g'}
+,{cr:'c',t:'T',z:'                            3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'479',h:'6',c:'g'}
+,{cr:'m',t:'A',z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'464',h:'0',c:'r'}
+]},
+{anchor:'cvg100',items:[{z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'471',c:'Y',p:'50.00'}
+,{cr:'m',t:'I',z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'471',h:'0',c:'r'}
+,{cr:'c',t:'A',z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'471',h:'6',c:'g'}
+]},
+{anchor:'cvg101',items:[{z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'482',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'482',h:'6',c:'g'}
+,{cr:'m',t:'A',z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'482',h:'0',c:'r'}
+]},
+{anchor:'cvg102',items:[{z:'                              if(bit_counter &gt;= ADDR_WIDTH-4) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'486',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'                              if(bit_counter &gt;= ADDR_WIDTH-4) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'486',h:'1',c:'g'}
+,{cr:'c',t:'E',z:'                              else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'490',h:'5',c:'g'}
+]},
+{anchor:'cvg103',items:[{z:'                      case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'500',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                        SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'501',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                      DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'555',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                      QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'601',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'500',h:'0',c:'r'}
+]},
+{anchor:'cvg104',items:[{z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'502',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                            0:begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'503',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'515',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'524',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'536',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'502',h:'0',c:'r'}
+]},
+{anchor:'cvg105',items:[{z:'                                if(bit_counter == (DATA_WIDTH-1) && burst...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'505',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                if(bit_counter == (DATA_WIDTH-1) && burst...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'505',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                if(bit_counter == (DATA_WIDTH-1) && burst...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'505',h:'0',c:'r'}
+]},
+{anchor:'cvg106',items:[{z:'                                if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'509',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'509',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'509',h:'0',c:'r'}
+]},
+{anchor:'cvg107',items:[{z:'                               if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'517',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'517',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                               if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'517',h:'0',c:'r'}
+]},
+{anchor:'cvg108',items:[{z:'                                if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'526',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'526',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'526',h:'0',c:'r'}
+]},
+{anchor:'cvg109',items:[{z:'                                if(o_burst_write_word_request == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'530',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                if(o_burst_write_word_request == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'530',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                if(o_burst_write_word_request == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'530',h:'0',c:'r'}
+]},
+{anchor:'cvg110',items:[{z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'539',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'539',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'539',h:'0',c:'r'}
+]},
+{anchor:'cvg111',items:[{z:'                               if(bit_counter == (DATA_WIDTH-1))begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'543',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(bit_counter == (DATA_WIDTH-1))begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'543',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                               else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'549',h:'0',c:'r'}
+]},
+{anchor:'cvg112',items:[{z:'                                  if(burst_enable)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'545',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                  if(burst_enable)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'545',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                  if(burst_enable)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'545',h:'0',c:'r'}
+]},
+{anchor:'cvg113',items:[{z:'                      	case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'556',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                      		0: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'557',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                      		1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'567',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                      		2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'575',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                      		3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'582',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      	case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'556',h:'0',c:'r'}
+]},
+{anchor:'cvg114',items:[{z:'                      			if(bit_counter 	== (ADDR_WIDTH-1) && burst_enabl...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'559',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(bit_counter 	== (ADDR_WIDTH-1) && burst_enabl...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'559',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(bit_counter 	== (ADDR_WIDTH-1) && burst_enabl...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'559',h:'0',c:'r'}
+]},
+{anchor:'cvg115',items:[{z:'                      			if(cpha == 1 ) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'562',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(cpha == 1 ) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'562',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(cpha == 1 ) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'562',h:'0',c:'r'}
+]},
+{anchor:'cvg116',items:[{z:'                      			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'570',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'570',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'570',h:'0',c:'r'}
+]},
+{anchor:'cvg117',items:[{z:'                      			if(o_burst_write_word_request == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'577',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(o_burst_write_word_request == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'577',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(o_burst_write_word_request == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'577',h:'0',c:'r'}
+]},
+{anchor:'cvg118',items:[{z:'                      			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'585',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'585',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'585',h:'0',c:'r'}
+]},
+{anchor:'cvg119',items:[{z:'                      			if(bit_counter 	== (DATA_WIDTH-2)) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'589',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(bit_counter 	== (DATA_WIDTH-2)) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'589',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                      			else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'595',h:'0',c:'r'}
+]},
+{anchor:'cvg120',items:[{z:'                      				if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'591',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      				if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'591',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      				if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'591',h:'0',c:'r'}
+]},
+{anchor:'cvg121',items:[{z:'                      	case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'602',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                      		0: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'603',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                      		1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'613',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                      		2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'621',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                      		3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'628',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      	case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'602',h:'0',c:'r'}
+]},
+{anchor:'cvg122',items:[{z:'                      			if(bit_counter == (ADDR_WIDTH-1) && burst_enable...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'605',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(bit_counter == (ADDR_WIDTH-1) && burst_enable...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'605',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(bit_counter == (ADDR_WIDTH-1) && burst_enable...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'605',h:'0',c:'r'}
+]},
+{anchor:'cvg123',items:[{z:'                      			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'608',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'608',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'608',h:'0',c:'r'}
+]},
+{anchor:'cvg124',items:[{z:'                      			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'616',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'616',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'616',h:'0',c:'r'}
+]},
+{anchor:'cvg125',items:[{z:'                      			if(o_burst_write_word_request == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'623',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(o_burst_write_word_request == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'623',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(o_burst_write_word_request == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'623',h:'0',c:'r'}
+]},
+{anchor:'cvg126',items:[{z:'                      			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'631',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'631',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'631',h:'0',c:'r'}
+]},
+{anchor:'cvg127',items:[{z:'                      			if(bit_counter== (DATA_WIDTH-4)) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'635',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(bit_counter== (DATA_WIDTH-4)) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'635',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                      			else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'641',h:'0',c:'r'}
+]},
+{anchor:'cvg128',items:[{z:'                      				if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'637',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      				if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'637',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      				if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'637',h:'0',c:'r'}
+]},
+{anchor:'cvg129',items:[{z:'                      case (mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'652',c:'R',p:'25.00'}
+,{cr:'m',t:'T',z:'                        SINGLE_MODE : begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'653',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                        DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'701',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'                        QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'738',h:'68',c:'g'}
+,{cr:'m',t:'A',z:'                      case (mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'652',h:'0',c:'r'}
+]},
+{anchor:'cvg130',items:[{z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'654',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                            0:begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'655',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'664',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'673',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'681',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'654',h:'0',c:'r'}
+]},
+{anchor:'cvg131',items:[{z:'                                if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'658',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'658',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'658',h:'0',c:'r'}
+]},
+{anchor:'cvg132',items:[{z:'                               if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'666',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'666',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                               if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'666',h:'0',c:'r'}
+]},
+{anchor:'cvg133',items:[{z:'                                if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'675',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'675',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'675',h:'0',c:'r'}
+]},
+{anchor:'cvg134',items:[{z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'684',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'684',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'684',h:'0',c:'r'}
+]},
+{anchor:'cvg135',items:[{z:'                               if(bit_counter == (DATA_WIDTH-1))begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'688',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(bit_counter == (DATA_WIDTH-1))begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'688',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                               else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'695',h:'0',c:'r'}
+]},
+{anchor:'cvg136',items:[{z:'                                   if(burst_enable)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'690',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                   if(burst_enable)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'690',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                   if(burst_enable)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'690',h:'0',c:'r'}
+]},
+{anchor:'cvg137',items:[{z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'702',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                            0 : begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'703',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'711',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'715',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'722',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'702',h:'0',c:'r'}
+]},
+{anchor:'cvg138',items:[{z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'706',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'706',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'706',h:'0',c:'r'}
+]},
+{anchor:'cvg139',items:[{z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'717',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'717',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'717',h:'0',c:'r'}
+]},
+{anchor:'cvg140',items:[{z:'                              if(bit_counter &gt;= (DATA_WIDTH - 2)) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'725',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                              if(bit_counter &gt;= (DATA_WIDTH - 2)) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'725',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                              else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'732',h:'0',c:'r'}
+]},
+{anchor:'cvg141',items:[{z:'                                if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'727',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'727',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'727',h:'0',c:'r'}
+]},
+{anchor:'cvg142',items:[{z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'739',c:'Y',p:'80.00'}
+,{cr:'c',t:'T',z:'                            0: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'740',h:'17',c:'g'}
+,{cr:'c',t:'T',z:'                            1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'748',h:'17',c:'g'}
+,{cr:'c',t:'T',z:'                            2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'752',h:'17',c:'g'}
+,{cr:'c',t:'T',z:'                            3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'759',h:'17',c:'g'}
+,{cr:'m',t:'A',z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'739',h:'0',c:'r'}
+]},
+{anchor:'cvg143',items:[{z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'743',c:'Y',p:'50.00'}
+,{cr:'m',t:'I',z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'743',h:'0',c:'r'}
+,{cr:'c',t:'A',z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'743',h:'17',c:'g'}
+]},
+{anchor:'cvg144',items:[{z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'754',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'754',h:'17',c:'g'}
+,{cr:'m',t:'A',z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'754',h:'0',c:'r'}
+]},
+{anchor:'cvg145',items:[{z:'                              if(bit_counter &gt;= (DATA_WIDTH - 4)) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'762',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'                              if(bit_counter &gt;= (DATA_WIDTH - 4)) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'762',h:'2',c:'g'}
+,{cr:'c',t:'E',z:'                              else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'769',h:'15',c:'g'}
+]},
+{anchor:'cvg146',items:[{z:'                                if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'764',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'                                if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'764',h:'2',c:'g'}
+,{cr:'m',t:'A',z:'                                if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'764',h:'0',c:'r'}
+]},
+{anchor:'cvg147',items:[{z:'                        case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'780',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                            0:begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'781',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'806',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'812',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'816',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                        case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'780',h:'0',c:'r'}
+]},
+{anchor:'cvg148',items:[{z:'                                case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'784',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                                	SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'785',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                               		DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'791',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                             		QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'797',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'784',h:'0',c:'r'}
+]},
+{anchor:'cvg149',items:[{z:'                                		if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'786',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                		if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'786',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                		if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'786',h:'0',c:'r'}
+]},
+{anchor:'cvg150',items:[{z:'                               			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'792',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'792',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                               			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'792',h:'0',c:'r'}
+]},
+{anchor:'cvg151',items:[{z:'                             			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'798',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                             			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'798',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                             			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'798',h:'0',c:'r'}
+]},
+{anchor:'cvg152',items:[{z:'                    	case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'825',c:'Y',p:'80.00'}
+,{cr:'c',t:'T',z:'                    		0 : begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'826',h:'10',c:'g'}
+,{cr:'c',t:'T',z:'                    		1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'829',h:'10',c:'g'}
+,{cr:'c',t:'T',z:'                    		2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'833',h:'10',c:'g'}
+,{cr:'c',t:'T',z:'                    		3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'836',h:'10',c:'g'}
+,{cr:'m',t:'A',z:'                    	case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'825',h:'0',c:'r'}
+]},
+{anchor:'cvg153',items:[{z:'                    			case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'839',c:'R',p:'25.00'}
+,{cr:'m',t:'T',z:'                    				SINGLE_MODE : begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'840',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                    				DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'848',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'                    				QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'856',h:'10',c:'g'}
+,{cr:'m',t:'A',z:'                    			case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'839',h:'0',c:'r'}
+]},
+{anchor:'cvg154',items:[{z:'                    					if(dummy_cnt 	== DUMMY_CYC_SING -1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'841',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                    					if(dummy_cnt 	== DUMMY_CYC_SING -1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'841',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                    					else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'844',h:'0',c:'r'}
+]},
+{anchor:'cvg155',items:[{z:'                    					if(dummy_cnt 	== DUMMY_CYC_DUAL - 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'849',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                    					if(dummy_cnt 	== DUMMY_CYC_DUAL - 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'849',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                    					else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'852',h:'0',c:'r'}
+]},
+{anchor:'cvg156',items:[{z:'                    					if(dummy_cnt 	== DUMMY_CYC_QUAD - 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'857',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'                    					if(dummy_cnt 	== DUMMY_CYC_QUAD - 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'857',h:'1',c:'g'}
+,{cr:'c',t:'E',z:'                    					else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'860',h:'9',c:'g'}
+]},
+{anchor:'cvg157',items:[{z:'                    	case (mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'867',c:'R',p:'25.00'}
+,{cr:'m',t:'T',z:'                    		SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'868',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                    		DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'871',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'                    		QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'874',h:'40',c:'g'}
+,{cr:'m',t:'A',z:'                    	case (mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'867',h:'0',c:'r'}
+]},
+{anchor:'cvg158',items:[{z:'	if(~i_rst_n) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'888',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'	if(~i_rst_n) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'888',h:'4',c:'g'}
+,{cr:'c',t:'E',z:'	end else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'893',h:'12',c:'g'}
+]},
+{anchor:'cvg159',items:[{z:'			case(state)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'894',c:'Y',p:'77.77'}
+,{cr:'c',t:'T',z:'				S_IDLE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'895',h:'2',c:'g'}
+,{cr:'c',t:'T',z:'				S_SET_SS: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'902',h:'2',c:'g'}
+,{cr:'c',t:'T',z:'				S_TRANSMIT_COMM: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'919',h:'1',c:'g'}
+,{cr:'c',t:'T',z:'				S_TRANSMIT_ADDR : begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'931',h:'2',c:'g'}
+,{cr:'c',t:'T',z:'				S_DUMMY: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'946',h:'1',c:'g'}
+,{cr:'m',t:'T',z:'				S_TRANSMIT_DATA : begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'949',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'				S_READ_DATA : begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'964',h:'2',c:'g'}
+,{cr:'m',t:'T',z:'				S_STOP: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'979',h:'0',c:'r'}
+,{cr:'c',t:'A',z:'			case(state)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'894',h:'2',c:'g'}
+]},
+{anchor:'cvg160',items:[{z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'903',c:'R',p:'25.00'}
+,{cr:'m',t:'T',z:'						SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'904',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'						DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'908',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'						QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'912',h:'2',c:'g'}
+,{cr:'m',t:'A',z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'903',h:'0',c:'r'}
+]},
+{anchor:'cvg161',items:[{z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'920',c:'R',p:'33.33'}
+,{cr:'m',t:'T',z:'						DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'921',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'						QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'924',h:'1',c:'g'}
+,{cr:'m',t:'A',z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'920',h:'0',c:'r'}
+]},
+{anchor:'cvg162',items:[{z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'932',c:'R',p:'33.33'}
+,{cr:'m',t:'T',z:'						DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'933',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'						QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'937',h:'2',c:'g'}
+,{cr:'m',t:'A',z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'932',h:'0',c:'r'}
+]},
+{anchor:'cvg163',items:[{z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'950',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'						DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'951',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'						QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'955',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'950',h:'0',c:'r'}
+]},
+{anchor:'cvg164',items:[{z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'965',c:'R',p:'33.33'}
+,{cr:'m',t:'T',z:'						DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'966',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'						QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'970',h:'2',c:'g'}
+,{cr:'m',t:'A',z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'965',h:'0',c:'r'}
+]}],
+b35:[{dummy:0},
+{anchor:'cvg36',items:[{z:'    assign SCLK = (cpol == 0) ? sclk : ~sclk;',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'89',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'    assign SCLK = (cpol == 0) ? sclk : ~sclk;',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'89',h:'83',c:'g'}
+,{cr:'m',t:'E',z:'    assign SCLK = (cpol == 0) ? sclk : ~sclk;',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'89',h:'0',c:'r'}
+]},
+{anchor:'cvg37',items:[{z:'    assign divider_tick = (divider_counter == i_divider) ? 1 : 0;',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'94',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'    assign divider_tick = (divider_counter == i_divider) ? 1 : 0;',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'94',h:'166',c:'g'}
+,{cr:'c',t:'E',z:'    assign divider_tick = (divider_counter == i_divider) ? 1 : 0;',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'94',h:'838',c:'g'}
+]},
+{anchor:'cvg38',items:[{z:'        if(~i_rst_n)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'97',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'        if(~i_rst_n)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'97',h:'506',c:'g'}
+,{cr:'c',t:'E',z:'        else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'100',h:'1004',c:'g'}
+]},
+{anchor:'cvg39',items:[{z:'            if(divider_counter == i_divider)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'101',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'            if(divider_counter == i_divider)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'101',h:'166',c:'g'}
+,{cr:'c',t:'E',z:'            else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'104',h:'838',c:'g'}
+]},
+{anchor:'cvg40',items:[{z:'    	if(~i_rst_n) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'112',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'    	if(~i_rst_n) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'112',h:'5',c:'g'}
+,{cr:'c',t:'E',z:'    	end else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'114',h:'336',c:'g'}
+]},
+{anchor:'cvg41',items:[{z:'    		if(divider_tick)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'115',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'    		if(divider_tick)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'115',h:'166',c:'g'}
+,{cr:'c',t:'A',z:'    		if(divider_tick)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'115',h:'170',c:'g'}
+]},
+{anchor:'cvg42',items:[{z:'    	case(state)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'123',c:'Y',p:'66.66'}
+,{cr:'c',t:'T',z:'    		S_IDLE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'124',h:'2',c:'g'}
+,{cr:'c',t:'T',z:'    		S_SET_SS: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'129',h:'1',c:'g'}
+,{cr:'c',t:'T',z:'    		S_TRANSMIT_COMM: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'132',h:'32',c:'g'}
+,{cr:'c',t:'T',z:'    		S_TRANSMIT_ADDR: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'137',h:'24',c:'g'}
+,{cr:'m',t:'T',z:'    		S_TRANSMIT_DATA: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'156',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'    		S_DUMMY: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'168',h:'40',c:'g'}
+,{cr:'c',t:'T',z:'    		S_READ_DATA: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'202',h:'69',c:'g'}
+,{cr:'m',t:'T',z:'    		S_STOP: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'242',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    	case(state)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'123',h:'0',c:'r'}
+]},
+{anchor:'cvg43',items:[{z:'    			if(i_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'125',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'    			if(i_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'125',h:'1',c:'g'}
+,{cr:'c',t:'A',z:'    			if(i_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'125',h:'1',c:'g'}
+]},
+{anchor:'cvg44',items:[{z:'    			if(bit_counter &gt;= COMM_WIDTH-1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'133',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'    			if(bit_counter &gt;= COMM_WIDTH-1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'133',h:'1',c:'g'}
+,{cr:'c',t:'A',z:'    			if(bit_counter &gt;= COMM_WIDTH-1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'133',h:'31',c:'g'}
+]},
+{anchor:'cvg45',items:[{z:'    			case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'138',c:'R',p:'25.00'}
+,{cr:'m',t:'T',z:'    				SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'139',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'    				DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'144',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'    				QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'149',h:'24',c:'g'}
+,{cr:'m',t:'A',z:'    			case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'138',h:'0',c:'r'}
+]},
+{anchor:'cvg46',items:[{z:'    					if(bit_counter 	&gt;= ADDR_WIDTH-1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'140',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    					if(bit_counter 	&gt;= ADDR_WIDTH-1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'140',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    					if(bit_counter 	&gt;= ADDR_WIDTH-1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'140',h:'0',c:'r'}
+]},
+{anchor:'cvg47',items:[{z:'    					if(bit_counter 	&gt;= ADDR_WIDTH-2 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'145',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    					if(bit_counter 	&gt;= ADDR_WIDTH-2 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'145',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    					if(bit_counter 	&gt;= ADDR_WIDTH-2 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'145',h:'0',c:'r'}
+]},
+{anchor:'cvg48',items:[{z:'    					if(bit_counter 	&gt;= ADDR_WIDTH-4 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'150',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'    					if(bit_counter 	&gt;= ADDR_WIDTH-4 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'150',h:'1',c:'g'}
+,{cr:'c',t:'A',z:'    					if(bit_counter 	&gt;= ADDR_WIDTH-4 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'150',h:'23',c:'g'}
+]},
+{anchor:'cvg49',items:[{z:'    			if(bit_counter &gt;= DATA_WIDTH-1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'157',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    			if(bit_counter &gt;= DATA_WIDTH-1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'157',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    			if(bit_counter &gt;= DATA_WIDTH-1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'157',h:'0',c:'r'}
+]},
+{anchor:'cvg50',items:[{z:'    				if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'158',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    				if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'158',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'    				else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'163',h:'0',c:'r'}
+]},
+{anchor:'cvg51',items:[{z:'    					if(burst_count 	&lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'159',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    					if(burst_count 	&lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'159',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    					if(burst_count 	&lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'159',h:'0',c:'r'}
+]},
+{anchor:'cvg52',items:[{z:'    			case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'169',c:'R',p:'25.00'}
+,{cr:'m',t:'T',z:'    				SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'170',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'    				DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'180',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'    				QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'190',h:'40',c:'g'}
+,{cr:'m',t:'A',z:'    			case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'169',h:'0',c:'r'}
+]},
+{anchor:'cvg53',items:[{z:'    					if(dummy_cnt == DUMMY_CYC_SING - 1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'171',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    					if(dummy_cnt == DUMMY_CYC_SING - 1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'171',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    					if(dummy_cnt == DUMMY_CYC_SING - 1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'171',h:'0',c:'r'}
+]},
+{anchor:'cvg54',items:[{z:'    						if(rw == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'172',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    						if(rw == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'172',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'    						else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'175',h:'0',c:'r'}
+]},
+{anchor:'cvg55',items:[{z:'    					if(dummy_cnt == DUMMY_CYC_DUAL - 1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'181',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    					if(dummy_cnt == DUMMY_CYC_DUAL - 1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'181',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    					if(dummy_cnt == DUMMY_CYC_DUAL - 1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'181',h:'0',c:'r'}
+]},
+{anchor:'cvg56',items:[{z:'    						if(rw == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'182',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    						if(rw == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'182',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'    						else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'185',h:'0',c:'r'}
+]},
+{anchor:'cvg57',items:[{z:'    					if(dummy_cnt == DUMMY_CYC_QUAD - 1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'191',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'    					if(dummy_cnt == DUMMY_CYC_QUAD - 1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'191',h:'1',c:'g'}
+,{cr:'c',t:'A',z:'    					if(dummy_cnt == DUMMY_CYC_QUAD - 1 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'191',h:'39',c:'g'}
+]},
+{anchor:'cvg58',items:[{z:'    						if(rw == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'192',c:'Y',p:'50.00'}
+,{cr:'m',t:'I',z:'    						if(rw == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'192',h:'0',c:'r'}
+,{cr:'c',t:'E',z:'    						else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'195',h:'1',c:'g'}
+]},
+{anchor:'cvg59',items:[{z:'    			case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'203',c:'R',p:'25.00'}
+,{cr:'m',t:'T',z:'    				SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'204',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'    				DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'216',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'    				QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'228',h:'69',c:'g'}
+,{cr:'m',t:'A',z:'    			case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'203',h:'0',c:'r'}
+]},
+{anchor:'cvg60',items:[{z:'    					if(bit_counter &gt;= DATA_WIDTH-1 &&  proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'205',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    					if(bit_counter &gt;= DATA_WIDTH-1 &&  proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'205',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    					if(bit_counter &gt;= DATA_WIDTH-1 &&  proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'205',h:'0',c:'r'}
+]},
+{anchor:'cvg61',items:[{z:'    						if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'206',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    						if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'206',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'    						else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'211',h:'0',c:'r'}
+]},
+{anchor:'cvg62',items:[{z:'    							if(burst_count 	&lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'207',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    							if(burst_count 	&lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'207',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    							if(burst_count 	&lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'207',h:'0',c:'r'}
+]},
+{anchor:'cvg63',items:[{z:'    					if(bit_counter &gt;= DATA_WIDTH-2 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'217',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    					if(bit_counter &gt;= DATA_WIDTH-2 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'217',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    					if(bit_counter &gt;= DATA_WIDTH-2 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'217',h:'0',c:'r'}
+]},
+{anchor:'cvg64',items:[{z:'    						if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'218',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    						if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'218',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'    						else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'223',h:'0',c:'r'}
+]},
+{anchor:'cvg65',items:[{z:'    							if(burst_count &lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'219',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    							if(burst_count &lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'219',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    							if(burst_count &lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'219',h:'0',c:'r'}
+]},
+{anchor:'cvg66',items:[{z:'    					if(bit_counter &gt;= DATA_WIDTH-4 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'229',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'    					if(bit_counter &gt;= DATA_WIDTH-4 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'229',h:'2',c:'g'}
+,{cr:'c',t:'A',z:'    					if(bit_counter &gt;= DATA_WIDTH-4 && proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'229',h:'67',c:'g'}
+]},
+{anchor:'cvg67',items:[{z:'    						if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'230',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'    						if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'230',h:'2',c:'g'}
+,{cr:'m',t:'E',z:'    						else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'235',h:'0',c:'r'}
+]},
+{anchor:'cvg68',items:[{z:'    							if(burst_count &lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'231',c:'Y',p:'50.00'}
+,{cr:'m',t:'I',z:'    							if(burst_count &lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'231',h:'0',c:'r'}
+,{cr:'c',t:'A',z:'    							if(burst_count &lt;= 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'231',h:'2',c:'g'}
+]},
+{anchor:'cvg69',items:[{z:'    			if(proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'243',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'    			if(proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'243',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'    			if(proc_counter == 3) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'243',h:'0',c:'r'}
+]},
+{anchor:'cvg70',items:[{z:'        if(~i_rst_n)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'253',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'        if(~i_rst_n)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'253',h:'5',c:'g'}
+,{cr:'c',t:'E',z:'        else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'270',h:'338',c:'g'}
+]},
+{anchor:'cvg71',items:[{z:'            if(divider_tick)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'271',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'            if(divider_tick)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'271',h:'166',c:'g'}
+,{cr:'c',t:'A',z:'            if(divider_tick)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'271',h:'172',c:'g'}
+]},
+{anchor:'cvg72',items:[{z:'                case(state)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'272',c:'Y',p:'66.66'}
+,{cr:'c',t:'T',z:'                    S_IDLE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'273',h:'1',c:'g'}
+,{cr:'c',t:'T',z:'                    S_SET_SS: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'287',h:'1',c:'g'}
+,{cr:'c',t:'T',z:'                    S_TRANSMIT_COMM: begin                   	',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'296',h:'32',c:'g'}
+,{cr:'c',t:'T',z:'                    S_TRANSMIT_ADDR: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'380',h:'24',c:'g'}
+,{cr:'m',t:'T',z:'                    S_TRANSMIT_DATA: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'499',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'                    S_READ_DATA: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'651',h:'68',c:'g'}
+,{cr:'m',t:'T',z:'                    S_STOP: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'778',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'                    S_DUMMY: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'824',h:'40',c:'g'}
+,{cr:'m',t:'A',z:'                case(state)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'272',h:'0',c:'r'}
+]},
+{anchor:'cvg73',items:[{z:'                        if(i_enable)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'282',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'                        if(i_enable)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'282',h:'1',c:'g'}
+,{cr:'m',t:'A',z:'                        if(i_enable)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'282',h:'0',c:'r'}
+]},
+{anchor:'cvg74',items:[{z:'                        if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'290',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'                        if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'290',h:'1',c:'g'}
+,{cr:'m',t:'A',z:'                        if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'290',h:'0',c:'r'}
+]},
+{anchor:'cvg75',items:[{z:'                      			case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'297',c:'Y',p:'80.00'}
+,{cr:'c',t:'T',z:'                          			0: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'298',h:'8',c:'g'}
+,{cr:'c',t:'T',z:'                          			1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'312',h:'8',c:'g'}
+,{cr:'c',t:'T',z:'                          			2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'338',h:'8',c:'g'}
+,{cr:'c',t:'T',z:'                          			3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'345',h:'8',c:'g'}
+,{cr:'m',t:'A',z:'                      			case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'297',h:'0',c:'r'}
+]},
+{anchor:'cvg76',items:[{z:'                            			if(bit_counter &gt; 0 && cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'300',c:'Y',p:'50.00'}
+,{cr:'m',t:'I',z:'                            			if(bit_counter &gt; 0 && cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'300',h:'0',c:'r'}
+,{cr:'c',t:'A',z:'                            			if(bit_counter &gt; 0 && cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'300',h:'8',c:'g'}
+]},
+{anchor:'cvg77',items:[{z:'                            			if(bit_counter == 0 && cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'304',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'                            			if(bit_counter == 0 && cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'304',h:'1',c:'g'}
+,{cr:'c',t:'A',z:'                            			if(bit_counter == 0 && cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'304',h:'7',c:'g'}
+]},
+{anchor:'cvg78',items:[{z:'                            			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'307',c:'Y',p:'50.00'}
+,{cr:'m',t:'I',z:'                            			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'307',h:'0',c:'r'}
+,{cr:'c',t:'A',z:'                            			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'307',h:'8',c:'g'}
+]},
+{anchor:'cvg79',items:[{z:'                            			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'314',c:'Y',p:'50.00'}
+,{cr:'m',t:'I',z:'                            			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'314',h:'0',c:'r'}
+,{cr:'c',t:'A',z:'                            			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'314',h:'8',c:'g'}
+]},
+{anchor:'cvg80',items:[{z:'                                     if(bit_counter == COMM_WIDTH) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'315',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                     if(bit_counter == COMM_WIDTH) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'315',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                                    else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'331',h:'0',c:'r'}
+]},
+{anchor:'cvg81',items:[{z:'                                       case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'316',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                                         SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'317',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                                        DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'321',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                                        QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'325',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                       case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'316',h:'0',c:'r'}
+]},
+{anchor:'cvg82',items:[{z:'                            			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'340',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'                            			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'340',h:'8',c:'g'}
+,{cr:'m',t:'A',z:'                            			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'340',h:'0',c:'r'}
+]},
+{anchor:'cvg83',items:[{z:'                            			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'347',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'                            			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'347',h:'8',c:'g'}
+,{cr:'m',t:'A',z:'                            			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'347',h:'0',c:'r'}
+]},
+{anchor:'cvg84',items:[{z:'                                    if(bit_counter == COMM_WIDTH-1) begin...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'348',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'                                    if(bit_counter == COMM_WIDTH-1) begin...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'348',h:'1',c:'g'}
+,{cr:'c',t:'E',z:'                                    else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'364',h:'7',c:'g'}
+]},
+{anchor:'cvg85',items:[{z:'                                      case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'349',c:'R',p:'25.00'}
+,{cr:'m',t:'T',z:'                                        SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'350',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                                        DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'354',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'                                        QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'358',h:'1',c:'g'}
+,{cr:'m',t:'A',z:'                                      case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'349',h:'0',c:'r'}
+]},
+{anchor:'cvg86',items:[{z:'                            			if(bit_counter == COMM_WIDTH-1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'369',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'                            			if(bit_counter == COMM_WIDTH-1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'369',h:'1',c:'g'}
+,{cr:'c',t:'E',z:'                            			else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'372',h:'7',c:'g'}
+]},
+{anchor:'cvg87',items:[{z:'                      case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'381',c:'R',p:'25.00'}
+,{cr:'m',t:'T',z:'                        SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'382',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                        DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'430',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'                        QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'463',h:'24',c:'g'}
+,{cr:'m',t:'A',z:'                      case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'381',h:'0',c:'r'}
+]},
+{anchor:'cvg88',items:[{z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'383',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                            0: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'384',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'396',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'405',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'413',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'383',h:'0',c:'r'}
+]},
+{anchor:'cvg89',items:[{z:'                               if(bit_counter &gt; 0 && cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'386',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(bit_counter &gt; 0 && cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'386',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                               if(bit_counter &gt; 0 && cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'386',h:'0',c:'r'}
+]},
+{anchor:'cvg90',items:[{z:'                                if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'390',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'390',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'390',h:'0',c:'r'}
+]},
+{anchor:'cvg91',items:[{z:'                               if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'398',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'398',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                               if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'398',h:'0',c:'r'}
+]},
+{anchor:'cvg92',items:[{z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'407',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'407',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'407',h:'0',c:'r'}
+]},
+{anchor:'cvg93',items:[{z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'416',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'416',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'416',h:'0',c:'r'}
+]},
+{anchor:'cvg94',items:[{z:'                               if(bit_counter == ADDR_WIDTH-1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'420',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(bit_counter == ADDR_WIDTH-1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'420',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                               else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'424',h:'0',c:'r'}
+]},
+{anchor:'cvg95',items:[{z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'431',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                            0: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'432',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'435',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'443',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'446',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'431',h:'0',c:'r'}
+]},
+{anchor:'cvg96',items:[{z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'438',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'438',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'438',h:'0',c:'r'}
+]},
+{anchor:'cvg97',items:[{z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'449',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'449',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'449',h:'0',c:'r'}
+]},
+{anchor:'cvg98',items:[{z:'                              if(bit_counter &gt;= ADDR_WIDTH-2) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'453',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                              if(bit_counter &gt;= ADDR_WIDTH-2) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'453',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                              else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'457',h:'0',c:'r'}
+]},
+{anchor:'cvg99',items:[{z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'464',c:'Y',p:'80.00'}
+,{cr:'c',t:'T',z:'                            0: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'465',h:'6',c:'g'}
+,{cr:'c',t:'T',z:'                            1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'468',h:'6',c:'g'}
+,{cr:'c',t:'T',z:'                            2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'476',h:'6',c:'g'}
+,{cr:'c',t:'T',z:'                            3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'479',h:'6',c:'g'}
+,{cr:'m',t:'A',z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'464',h:'0',c:'r'}
+]},
+{anchor:'cvg100',items:[{z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'471',c:'Y',p:'50.00'}
+,{cr:'m',t:'I',z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'471',h:'0',c:'r'}
+,{cr:'c',t:'A',z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'471',h:'6',c:'g'}
+]},
+{anchor:'cvg101',items:[{z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'482',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'482',h:'6',c:'g'}
+,{cr:'m',t:'A',z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'482',h:'0',c:'r'}
+]},
+{anchor:'cvg102',items:[{z:'                              if(bit_counter &gt;= ADDR_WIDTH-4) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'486',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'                              if(bit_counter &gt;= ADDR_WIDTH-4) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'486',h:'1',c:'g'}
+,{cr:'c',t:'E',z:'                              else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'490',h:'5',c:'g'}
+]},
+{anchor:'cvg103',items:[{z:'                      case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'500',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                        SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'501',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                      DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'555',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                      QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'601',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'500',h:'0',c:'r'}
+]},
+{anchor:'cvg104',items:[{z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'502',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                            0:begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'503',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'515',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'524',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'536',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'502',h:'0',c:'r'}
+]},
+{anchor:'cvg105',items:[{z:'                                if(bit_counter == (DATA_WIDTH-1) && burst...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'505',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                if(bit_counter == (DATA_WIDTH-1) && burst...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'505',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                if(bit_counter == (DATA_WIDTH-1) && burst...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'505',h:'0',c:'r'}
+]},
+{anchor:'cvg106',items:[{z:'                                if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'509',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'509',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'509',h:'0',c:'r'}
+]},
+{anchor:'cvg107',items:[{z:'                               if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'517',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'517',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                               if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'517',h:'0',c:'r'}
+]},
+{anchor:'cvg108',items:[{z:'                                if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'526',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'526',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'526',h:'0',c:'r'}
+]},
+{anchor:'cvg109',items:[{z:'                                if(o_burst_write_word_request == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'530',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                if(o_burst_write_word_request == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'530',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                if(o_burst_write_word_request == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'530',h:'0',c:'r'}
+]},
+{anchor:'cvg110',items:[{z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'539',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'539',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'539',h:'0',c:'r'}
+]},
+{anchor:'cvg111',items:[{z:'                               if(bit_counter == (DATA_WIDTH-1))begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'543',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(bit_counter == (DATA_WIDTH-1))begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'543',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                               else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'549',h:'0',c:'r'}
+]},
+{anchor:'cvg112',items:[{z:'                                  if(burst_enable)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'545',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                  if(burst_enable)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'545',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                  if(burst_enable)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'545',h:'0',c:'r'}
+]},
+{anchor:'cvg113',items:[{z:'                      	case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'556',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                      		0: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'557',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                      		1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'567',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                      		2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'575',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                      		3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'582',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      	case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'556',h:'0',c:'r'}
+]},
+{anchor:'cvg114',items:[{z:'                      			if(bit_counter 	== (ADDR_WIDTH-1) && burst_enabl...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'559',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(bit_counter 	== (ADDR_WIDTH-1) && burst_enabl...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'559',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(bit_counter 	== (ADDR_WIDTH-1) && burst_enabl...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'559',h:'0',c:'r'}
+]},
+{anchor:'cvg115',items:[{z:'                      			if(cpha == 1 ) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'562',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(cpha == 1 ) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'562',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(cpha == 1 ) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'562',h:'0',c:'r'}
+]},
+{anchor:'cvg116',items:[{z:'                      			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'570',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'570',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'570',h:'0',c:'r'}
+]},
+{anchor:'cvg117',items:[{z:'                      			if(o_burst_write_word_request == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'577',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(o_burst_write_word_request == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'577',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(o_burst_write_word_request == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'577',h:'0',c:'r'}
+]},
+{anchor:'cvg118',items:[{z:'                      			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'585',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'585',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'585',h:'0',c:'r'}
+]},
+{anchor:'cvg119',items:[{z:'                      			if(bit_counter 	== (DATA_WIDTH-2)) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'589',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(bit_counter 	== (DATA_WIDTH-2)) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'589',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                      			else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'595',h:'0',c:'r'}
+]},
+{anchor:'cvg120',items:[{z:'                      				if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'591',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      				if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'591',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      				if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'591',h:'0',c:'r'}
+]},
+{anchor:'cvg121',items:[{z:'                      	case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'602',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                      		0: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'603',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                      		1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'613',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                      		2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'621',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                      		3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'628',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      	case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'602',h:'0',c:'r'}
+]},
+{anchor:'cvg122',items:[{z:'                      			if(bit_counter == (ADDR_WIDTH-1) && burst_enable...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'605',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(bit_counter == (ADDR_WIDTH-1) && burst_enable...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'605',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(bit_counter == (ADDR_WIDTH-1) && burst_enable...',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'605',h:'0',c:'r'}
+]},
+{anchor:'cvg123',items:[{z:'                      			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'608',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'608',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'608',h:'0',c:'r'}
+]},
+{anchor:'cvg124',items:[{z:'                      			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'616',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'616',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'616',h:'0',c:'r'}
+]},
+{anchor:'cvg125',items:[{z:'                      			if(o_burst_write_word_request == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'623',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(o_burst_write_word_request == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'623',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(o_burst_write_word_request == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'623',h:'0',c:'r'}
+]},
+{anchor:'cvg126',items:[{z:'                      			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'631',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'631',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      			if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'631',h:'0',c:'r'}
+]},
+{anchor:'cvg127',items:[{z:'                      			if(bit_counter== (DATA_WIDTH-4)) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'635',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      			if(bit_counter== (DATA_WIDTH-4)) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'635',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                      			else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'641',h:'0',c:'r'}
+]},
+{anchor:'cvg128',items:[{z:'                      				if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'637',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                      				if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'637',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                      				if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'637',h:'0',c:'r'}
+]},
+{anchor:'cvg129',items:[{z:'                      case (mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'652',c:'R',p:'25.00'}
+,{cr:'m',t:'T',z:'                        SINGLE_MODE : begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'653',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                        DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'701',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'                        QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'738',h:'68',c:'g'}
+,{cr:'m',t:'A',z:'                      case (mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'652',h:'0',c:'r'}
+]},
+{anchor:'cvg130',items:[{z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'654',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                            0:begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'655',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'664',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'673',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'681',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'654',h:'0',c:'r'}
+]},
+{anchor:'cvg131',items:[{z:'                                if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'658',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'658',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'658',h:'0',c:'r'}
+]},
+{anchor:'cvg132',items:[{z:'                               if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'666',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'666',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                               if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'666',h:'0',c:'r'}
+]},
+{anchor:'cvg133',items:[{z:'                                if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'675',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'675',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'675',h:'0',c:'r'}
+]},
+{anchor:'cvg134',items:[{z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'684',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'684',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                               if(cpha == 0)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'684',h:'0',c:'r'}
+]},
+{anchor:'cvg135',items:[{z:'                               if(bit_counter == (DATA_WIDTH-1))begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'688',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               if(bit_counter == (DATA_WIDTH-1))begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'688',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                               else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'695',h:'0',c:'r'}
+]},
+{anchor:'cvg136',items:[{z:'                                   if(burst_enable)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'690',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                   if(burst_enable)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'690',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                   if(burst_enable)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'690',h:'0',c:'r'}
+]},
+{anchor:'cvg137',items:[{z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'702',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                            0 : begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'703',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'711',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'715',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'722',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'702',h:'0',c:'r'}
+]},
+{anchor:'cvg138',items:[{z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'706',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'706',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'706',h:'0',c:'r'}
+]},
+{anchor:'cvg139',items:[{z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'717',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'717',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'717',h:'0',c:'r'}
+]},
+{anchor:'cvg140',items:[{z:'                              if(bit_counter &gt;= (DATA_WIDTH - 2)) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'725',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                              if(bit_counter &gt;= (DATA_WIDTH - 2)) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'725',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                              else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'732',h:'0',c:'r'}
+]},
+{anchor:'cvg141',items:[{z:'                                if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'727',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'727',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'727',h:'0',c:'r'}
+]},
+{anchor:'cvg142',items:[{z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'739',c:'Y',p:'80.00'}
+,{cr:'c',t:'T',z:'                            0: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'740',h:'17',c:'g'}
+,{cr:'c',t:'T',z:'                            1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'748',h:'17',c:'g'}
+,{cr:'c',t:'T',z:'                            2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'752',h:'17',c:'g'}
+,{cr:'c',t:'T',z:'                            3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'759',h:'17',c:'g'}
+,{cr:'m',t:'A',z:'                          case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'739',h:'0',c:'r'}
+]},
+{anchor:'cvg143',items:[{z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'743',c:'Y',p:'50.00'}
+,{cr:'m',t:'I',z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'743',h:'0',c:'r'}
+,{cr:'c',t:'A',z:'                              if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'743',h:'17',c:'g'}
+]},
+{anchor:'cvg144',items:[{z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'754',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'754',h:'17',c:'g'}
+,{cr:'m',t:'A',z:'                              if(cpha == 0) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'754',h:'0',c:'r'}
+]},
+{anchor:'cvg145',items:[{z:'                              if(bit_counter &gt;= (DATA_WIDTH - 4)) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'762',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'                              if(bit_counter &gt;= (DATA_WIDTH - 4)) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'762',h:'2',c:'g'}
+,{cr:'c',t:'E',z:'                              else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'769',h:'15',c:'g'}
+]},
+{anchor:'cvg146',items:[{z:'                                if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'764',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'                                if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'764',h:'2',c:'g'}
+,{cr:'m',t:'A',z:'                                if(burst_enable) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'764',h:'0',c:'r'}
+]},
+{anchor:'cvg147',items:[{z:'                        case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'780',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                            0:begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'781',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'806',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'812',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                            3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'816',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                        case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'780',h:'0',c:'r'}
+]},
+{anchor:'cvg148',items:[{z:'                                case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'784',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'                                	SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'785',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                               		DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'791',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                             		QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'797',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'784',h:'0',c:'r'}
+]},
+{anchor:'cvg149',items:[{z:'                                		if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'786',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                                		if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'786',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                                		if(cpha == 1)begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'786',h:'0',c:'r'}
+]},
+{anchor:'cvg150',items:[{z:'                               			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'792',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                               			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'792',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                               			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'792',h:'0',c:'r'}
+]},
+{anchor:'cvg151',items:[{z:'                             			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'798',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                             			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'798',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                             			if(cpha == 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'798',h:'0',c:'r'}
+]},
+{anchor:'cvg152',items:[{z:'                    	case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'825',c:'Y',p:'80.00'}
+,{cr:'c',t:'T',z:'                    		0 : begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'826',h:'10',c:'g'}
+,{cr:'c',t:'T',z:'                    		1: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'829',h:'10',c:'g'}
+,{cr:'c',t:'T',z:'                    		2: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'833',h:'10',c:'g'}
+,{cr:'c',t:'T',z:'                    		3: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'836',h:'10',c:'g'}
+,{cr:'m',t:'A',z:'                    	case(proc_counter)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'825',h:'0',c:'r'}
+]},
+{anchor:'cvg153',items:[{z:'                    			case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'839',c:'R',p:'25.00'}
+,{cr:'m',t:'T',z:'                    				SINGLE_MODE : begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'840',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                    				DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'848',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'                    				QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'856',h:'10',c:'g'}
+,{cr:'m',t:'A',z:'                    			case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'839',h:'0',c:'r'}
+]},
+{anchor:'cvg154',items:[{z:'                    					if(dummy_cnt 	== DUMMY_CYC_SING -1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'841',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                    					if(dummy_cnt 	== DUMMY_CYC_SING -1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'841',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                    					else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'844',h:'0',c:'r'}
+]},
+{anchor:'cvg155',items:[{z:'                    					if(dummy_cnt 	== DUMMY_CYC_DUAL - 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'849',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                    					if(dummy_cnt 	== DUMMY_CYC_DUAL - 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'849',h:'0',c:'r'}
+,{cr:'m',t:'E',z:'                    					else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'852',h:'0',c:'r'}
+]},
+{anchor:'cvg156',items:[{z:'                    					if(dummy_cnt 	== DUMMY_CYC_QUAD - 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'857',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'                    					if(dummy_cnt 	== DUMMY_CYC_QUAD - 1) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'857',h:'1',c:'g'}
+,{cr:'c',t:'E',z:'                    					else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'860',h:'9',c:'g'}
+]},
+{anchor:'cvg157',items:[{z:'                    	case (mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'867',c:'R',p:'25.00'}
+,{cr:'m',t:'T',z:'                    		SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'868',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'                    		DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'871',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'                    		QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'874',h:'40',c:'g'}
+,{cr:'m',t:'A',z:'                    	case (mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'867',h:'0',c:'r'}
+]},
+{anchor:'cvg158',items:[{z:'	if(~i_rst_n) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'888',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'	if(~i_rst_n) begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'888',h:'4',c:'g'}
+,{cr:'c',t:'E',z:'	end else begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'893',h:'12',c:'g'}
+]},
+{anchor:'cvg159',items:[{z:'			case(state)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'894',c:'Y',p:'77.77'}
+,{cr:'c',t:'T',z:'				S_IDLE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'895',h:'2',c:'g'}
+,{cr:'c',t:'T',z:'				S_SET_SS: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'902',h:'2',c:'g'}
+,{cr:'c',t:'T',z:'				S_TRANSMIT_COMM: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'919',h:'1',c:'g'}
+,{cr:'c',t:'T',z:'				S_TRANSMIT_ADDR : begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'931',h:'2',c:'g'}
+,{cr:'c',t:'T',z:'				S_DUMMY: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'946',h:'1',c:'g'}
+,{cr:'m',t:'T',z:'				S_TRANSMIT_DATA : begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'949',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'				S_READ_DATA : begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'964',h:'2',c:'g'}
+,{cr:'m',t:'T',z:'				S_STOP: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'979',h:'0',c:'r'}
+,{cr:'c',t:'A',z:'			case(state)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'894',h:'2',c:'g'}
+]},
+{anchor:'cvg160',items:[{z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'903',c:'R',p:'25.00'}
+,{cr:'m',t:'T',z:'						SINGLE_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'904',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'						DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'908',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'						QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'912',h:'2',c:'g'}
+,{cr:'m',t:'A',z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'903',h:'0',c:'r'}
+]},
+{anchor:'cvg161',items:[{z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'920',c:'R',p:'33.33'}
+,{cr:'m',t:'T',z:'						DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'921',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'						QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'924',h:'1',c:'g'}
+,{cr:'m',t:'A',z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'920',h:'0',c:'r'}
+]},
+{anchor:'cvg162',items:[{z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'932',c:'R',p:'33.33'}
+,{cr:'m',t:'T',z:'						DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'933',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'						QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'937',h:'2',c:'g'}
+,{cr:'m',t:'A',z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'932',h:'0',c:'r'}
+]},
+{anchor:'cvg163',items:[{z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'950',c:'R',p:'0.00'}
+,{cr:'m',t:'T',z:'						DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'951',h:'0',c:'r'}
+,{cr:'m',t:'T',z:'						QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'955',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'950',h:'0',c:'r'}
+]},
+{anchor:'cvg164',items:[{z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'965',c:'R',p:'33.33'}
+,{cr:'m',t:'T',z:'						DUAL_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'966',h:'0',c:'r'}
+,{cr:'c',t:'T',z:'						QUAD_MODE: begin',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'970',h:'2',c:'g'}
+,{cr:'m',t:'A',z:'					case(mode)',hf:'__HDL_srcfile_1.htm',f:'../rtl/qspi_master.v',l:'965',h:'0',c:'r'}
+]}],
+dummyEnd:0
+};
+processBranchesData(g_data);
